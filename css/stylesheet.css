@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "Tracks";
+	src: url("../fonts/Tracks.ttf") format("truetype");
+}
+* {
+	font-family: "Tracks", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body, html {
+	height: 100%;
+	width: 100%;
+}
+label {
+	font-size: 20px;
+	color: white;
+}
+a {
+	font-size: 35px;
+	text-decoration: none;
+	color: #2c3e50;
+}
+h1 {
+	font-size: 200px;
+	text-align: center;
+}
+.head {
+	margin-top: 8%;
+	height: 40%;
+	background-color: white;
+}
+.content {
+	
+}
+.footer {
+	
+}
+.timo, .tuxes {
+	-webkit-transition: background 300ms ease-in-out;
+	-moz-transition: background 300ms ease-in-out;
+	-ms-transition: background 300ms ease-in-out;
+	-o-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 50px 0px;
+}
+.timo:hover, .tuxes:hover{
+	-webkit-transition: background 300ms ease-in-out;
+	-moz-transition: background 300ms ease-in-out;
+	-ms-transition: background 300ms ease-in-out;
+	-o-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+	background-color: white;
+}
+.tuxes {
+	background-color: #f1c40f;
+}
+.timo {
+	background-color: #2980b9;
+}
